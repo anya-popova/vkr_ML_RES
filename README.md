@@ -1,7 +1,7 @@
 # Выпускная квалификационная работа бакалавра
 Прогнозирование выработки СЭС и ВЭС с оптимизацией заявки на рынок на сутки вперёд
 
-vkr-energy-forecast/
+```vkr-energy-forecast/
 │
 ├── README.md
 ├── requirements.txt
@@ -18,3 +18,4 @@ vkr-energy-forecast/
     ├── predictions.csv
     ├── weather_and_price.csv
     └── naive_forecast.csv
+```
