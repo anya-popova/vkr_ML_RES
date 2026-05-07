@@ -19,3 +19,15 @@
     ├── weather_and_price.csv
     └── naive_forecast.csv
 ```
+
+## Запуск интерфейса
+
+### Интерфейс (веб-приложение)
+
+```bash
+cd app
+pip install -r requirements.txt
+streamlit run app.py
+```
+Открыть в браузере: http://localhost:8501
+
