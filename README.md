@@ -1,5 +1,7 @@
 # Выпускная квалификационная работа бакалавра
-Прогнозирование выработки СЭС и ВЭС с оптимизацией заявки на рынок на сутки вперёд
+## Прогнозирование выработки СЭС и ВЭС с оптимизацией заявки на рынок на сутки вперёд
+
+## Структура репозитория
 
 ```vkr-energy-forecast/
 │
@@ -19,6 +21,14 @@
     ├── weather_and_price.csv
     └── naive_forecast.csv
 ```
+## Данные
+
+Использован открытый набор данных с Kaggle: [Hourly energy demand generation and weather](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/data) (2015–2019, Испания).
+
+## Jupyter-ноутбук
+
+Полный код обработки данных и обучения моделей находится в `notebooks/vkr_actual_24mod.ipynb`. 
+[Открыть в Google Colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/1QX0kvqHC4C7CPu3zhO9tqtmTHVJo28BN?hl=ru#scrollTo=NVB5oW05q-76))( после загрузки файла)
 
 ## Запуск интерфейса
 
