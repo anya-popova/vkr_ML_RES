@@ -34,7 +34,7 @@
 ## Установка и запуск интерфейса
 ### Вариант 1: Клонирование репозитория (Git)
 ```bash
-git clone https://github.com/ваш-логин/vkr-energy-forecast.git
+git clone https://github.com/anya-popova/vkr_ML_RES.git
 cd vkr-energy-forecast
 pip install -r requirements.txt
 cd app
