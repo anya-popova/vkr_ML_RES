@@ -30,8 +30,18 @@
 Полный код обработки данных и обучения моделей находится в `notebooks/vkr_actual_24mod.ipynb`. 
 [Просмотр в Google Colab](https://colab.research.google.com/drive/1QX0kvqHC4C7CPu3zhO9tqtmTHVJo28BN?hl=ru#scrollTo=NVB5oW05q-76)
 
-## Запуск интерфейса
 
+## Установка и запуск интерфейса
+### Вариант 1: Клонирование репозитория (Git)
+```bash
+git clone https://github.com/ваш-логин/vkr-energy-forecast.git
+cd vkr-energy-forecast
+pip install -r requirements.txt
+cd app
+streamlit run app.py
+```
+
+Вариант 2: С помощью ZIP-архива
 1. Скачайте проект
 2. Распакуйте архив
 3. Откройте корневую папку в терминале
